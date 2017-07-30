@@ -18,7 +18,7 @@ node.js: checks if a file modify date is older than a duration (useful for cache
 
     npm i file-older-than
 
-# API Reference
+## API Reference
 
     /**
     * returns whether a file is older than a certain duration
