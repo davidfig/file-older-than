@@ -10,8 +10,7 @@
     "older"
   ],
   "scripts": {
-    "test": "node_modules/.bin/mocha",
-    "docs": "node_modules/.bin/jsdoc2md --template README.hbs file-older-than.js > README.md"
+    "test": "node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",

@@ -28,6 +28,11 @@ node.js: checks if a file modify date is older than a duration (useful for cache
     */
     function FileOlderThan(file, duration)
 
+## Tests
+
+    npm install
+    npm run test
+
 * * *
 
 Copyright (c) 2017 YOPEY YOPEY LLC - MIT License
