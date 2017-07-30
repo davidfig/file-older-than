@@ -1,0 +1,65 @@
+{
+  "name": "file-older-than",
+  "version": "1.0.0",
+  "description": "node.js: checks if a file modify date is older than a duration (useful for cache checks)",
+  "main": "index.js",
+  "keywords": [
+    "file",
+    "date",
+    "cache",
+    "older"
+  ],
+  "scripts": {
+    "test": "node_modules/.bin/mocha",
+    "docs": "node_modules/.bin/jsdoc2md --template README.hbs file-older-than.js > README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/davidfig/file-older-than.git"
+  },
+  "author": "david figatner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidfig/file-older-than/issues"
+  },
+  "homepage": "https://github.com/davidfig/file-older-than#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.14.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^3.0.2"
+  },
+  "eslintConfig": {
+    "env": {
+      "commonjs": true,
+      "es6": true
+    },
+    "parserOptions": {},
+    "rules": {
+      "indent": [
+        "error",
+        4
+      ],
+      "quotes": [
+        "error",
+        "single"
+      ],
+      "semi": [
+        "error",
+        "never"
+      ],
+      "no-undef": 1,
+      "no-unused-vars": 1
+    },
+    "globals": {
+      "document": true,
+      "window": true,
+      "debug": true,
+      "debugOne": true,
+      "console": true
+    }
+  },
+  "dependencies": {
+    "duration-js": "^4.0.0"
+  }
+}
